@@ -1,0 +1,43 @@
+body{
+ background-color: black;
+ color: white; 
+}
+h1 {
+  text-align: center;
+  color: rgb(69, 3, 253);
+  font: size 100px;
+  font-family: Arial, sans-serif;
+}
+p {
+  text-align: center;
+  color: rgb(245, 245, 244);
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
+button {
+  background-color: rgb(69, 3, 253);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  display: inline-block;
+  /* To align buttons in a column */
+  display: block;
+  width: 200px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 50px; /* Adds space between paragraph and button */
+  margin-bottom: 40px; /* Adds space between buttons */
+}
+back to top {
+  text-align: center;
+  color: rgb(69, 3, 253);
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px; /* Adds space above the link */
+  margin-left: 100px;
+  margin-right: auto;
+}
